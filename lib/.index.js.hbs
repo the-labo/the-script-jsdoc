@@ -1,0 +1,16 @@
+/**
+ * {{pkg.description}}
+ * @module {{pkg.name}}
+ * @version {{pkg.version}}
+ */
+
+'use strict'
+
+const jsdoc = require('./jsdoc')
+const lib = jsdoc.bind(this)
+
+Object.assign(lib, {
+  jsdoc
+})
+
+module.exports = lib

@@ -1,0 +1,45 @@
+{
+  "name": "the-script-jsdoc",
+  "version": "1.0.0",
+  "description": "JSDOC script for the-project",
+  "main": "lib",
+  "bin": {
+    "the-script-jsdoc": "bin/the-script-jsdoc"
+  },
+  "scripts": {
+    "test": "node ./ci/test.js",
+    "prepare": "node ./ci/build.js"
+  },
+  "repository": "the-labo/the-script-jsdoc",
+  "keywords": [
+    "the"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishinishi@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-labo/the-script-jsdoc/issues"
+  },
+  "homepage": "https://github.com/the-labo/the-script-jsdoc#readme",
+  "dependencies": {
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "amocha": "^2.0.0",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.4",
+    "ape-tasking": "^4.0.9",
+    "ape-tmpl": "^5.0.20",
+    "ape-updating": "^4.1.0",
+    "coz": "^6.0.20",
+    "injectmock": "^2.0.0",
+    "writeout": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=4"
+  }
+}
