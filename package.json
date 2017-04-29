@@ -1,6 +1,6 @@
 {
   "name": "the-script-jsdoc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JSDOC script for the-project",
   "main": "lib",
   "bin": {
@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/the-labo/the-script-jsdoc#readme",
   "dependencies": {
-    "co": "^4.6.0"
+    "co": "^4.6.0",
+    "stringcase": "^3.2.1"
   },
   "devDependencies": {
     "amocha": "^2.0.0",

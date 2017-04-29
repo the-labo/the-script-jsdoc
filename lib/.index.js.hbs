@@ -7,10 +7,12 @@
 'use strict'
 
 const jsdoc = require('./jsdoc')
+const signature = require('./signature')
 const lib = jsdoc.bind(this)
 
 Object.assign(lib, {
-  jsdoc
+  jsdoc,
+  signature
 })
 
 module.exports = lib
