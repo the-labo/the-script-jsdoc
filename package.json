@@ -1,6 +1,6 @@
 {
   "name": "the-script-jsdoc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JSDOC script for the-project",
   "main": "lib",
   "bin": {
