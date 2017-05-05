@@ -5,6 +5,6 @@
 'use strict'
 
 /** @lends foo*/
-function foo () {
+async function foo () {
 
 }
