@@ -1,6 +1,6 @@
 {
   "name": "the-script-jsdoc",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "JSDOC script for the-project",
   "main": "lib",
   "bin": {
@@ -25,8 +25,9 @@
   },
   "homepage": "https://github.com/the-labo/the-script-jsdoc#readme",
   "dependencies": {
+    "aglob": "^2.0.1",
+    "argx": "^3.0.2",
     "co": "^4.6.0",
-    "jsdoc-strip-async-await": "^0.1.0",
     "stringcase": "^3.2.1"
   },
   "devDependencies": {
@@ -38,7 +39,7 @@
     "ape-updating": "^4.1.0",
     "coz": "^6.0.20",
     "injectmock": "^2.0.0",
-    "writeout": "^2.1.0"
+    "writeout": "^2.2.0"
   },
   "engines": {
     "node": ">=6",

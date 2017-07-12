@@ -1,5 +1,4 @@
 {
   "plugins": [
-    "lib/plugins/jsdoc-strip-async-await"
   ]
 }
