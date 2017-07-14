@@ -1,38 +1,38 @@
 {
-  "functions": [
-    {
-      "name": "foo",
-      "access": "",
-      "virtual": false,
-      "description": "",
-      "parameters": [
+    "functions": [
         {
-          "name": "a1",
-          "type": "string",
-          "description": "Argument 01",
-          "default": "",
-          "optional": "",
-          "nullable": ""
-        }
-      ],
-      "examples": []
-    },
-    {
-      "name": "foo",
-      "access": "",
-      "virtual": false,
-      "description": "",
-      "parameters": [
+            "name": "foo",
+            "access": "",
+            "virtual": false,
+            "description": "",
+            "parameters": [
+                {
+                    "name": "a1",
+                    "type": "string",
+                    "description": "Argument 01",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
         {
-          "name": "a1",
-          "type": "string",
-          "description": "Argument 01",
-          "default": "",
-          "optional": "",
-          "nullable": ""
+            "name": "foo",
+            "access": "",
+            "virtual": false,
+            "description": "",
+            "parameters": [
+                {
+                    "name": "a1",
+                    "type": "string",
+                    "description": "Argument 01",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
         }
-      ],
-      "examples": []
-    }
-  ]
+    ]
 }
