@@ -6,22 +6,21 @@
 
 const signature = require('../lib/signature.js')
 const assert = require('assert')
-const co = require('co')
 
 describe('signature', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(() => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(() => {
 
-  }))
+  })
 
-  it('Signature', () => co(function * () {
+  it('Signature', () => {
 
-  }))
+  })
 })
 
 /* global describe, before, after, it */

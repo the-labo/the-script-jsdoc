@@ -6,22 +6,21 @@
 
 const jsdoc = require('../lib/jsdoc.js')
 const assert = require('assert')
-const co = require('co')
 
 describe('jsdoc', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Jsdoc', () => co(function * () {
-    yield jsdoc(`${__dirname}/../misc/mocks/mock-project-01`)
-  }))
+  it('Jsdoc', async () => {
+    await jsdoc(`${__dirname}/../misc/mocks/mock-project-01`)
+  })
 })
 
 /* global describe, before, after, it */

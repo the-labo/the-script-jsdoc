@@ -1,6 +1,6 @@
 {
   "name": "the-script-jsdoc",
-  "version": "1.0.9",
+  "version": "2.0.1",
   "description": "JSDOC script for the-project",
   "main": "lib",
   "bin": {
@@ -12,7 +12,8 @@
   },
   "repository": "the-labo/the-script-jsdoc",
   "keywords": [
-    "the"
+    "the",
+    "script"
   ],
   "author": {
     "name": "Taka Okunishi",
@@ -25,26 +26,25 @@
   },
   "homepage": "https://github.com/the-labo/the-script-jsdoc#readme",
   "dependencies": {
-    "aglob": "^2.0.1",
-    "amkdirp": "^1.0.0",
+    "aglob": "^3.0.0",
+    "amkdirp": "^2.0.0",
     "argx": "^3.0.2",
-    "co": "^4.6.0",
-    "filedel": "^3.0.0",
+    "filedel": "^4.0.0",
     "stringcase": "^4.0.0"
   },
   "devDependencies": {
-    "amocha": "^2.0.0",
+    "amocha": "^3.0.0",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-tasking": "^4.0.9",
-    "ape-tmpl": "^5.0.20",
+    "ape-tmpl": "^6.0.1",
     "ape-updating": "^4.1.0",
     "coz": "^6.0.20",
     "injectmock": "^2.0.0",
     "writeout": "^2.2.0"
   },
   "engines": {
-    "node": ">=6",
+    "node": ">=7.6",
     "npm": ">=4"
   }
 }
