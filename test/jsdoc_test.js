@@ -19,7 +19,9 @@ describe('jsdoc', function () {
   })
 
   it('Jsdoc', async () => {
-    await jsdoc(`${__dirname}/../misc/mocks/mock-project-01`)
+    await jsdoc(
+      `${__dirname}/../misc/mocks/mock-project-01`
+    )
   })
 })
 
